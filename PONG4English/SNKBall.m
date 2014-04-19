@@ -16,31 +16,23 @@ int BallColor=0;
 @synthesize color;
 -(id)initWithSpeed:(float)speed andPosition:(CGPoint)position
 {
-	if (self=[self initWithSpeed:speed]) {
+	if (self=[super init]) {
 		location=CGPointMake(position.x, position.y);
+		float angle=(((float)rand()/RAND_MAX)-0.5)*.4;
+		angle=angle>0?angle+1.0/90:angle-1.0/90;
+		vitesse=CGPointMake(speed*cos(PI*angle), speed*sin(PI*angle));
+		color=BallColor;
+		BallColor=(BallColor+1)%6;
 	}
 	return self;
 }
 -(id)initWithSpeed:(float)speed
 {
-	if(self=[self init])
-	{
-		float angle=(((float)rand()/RAND_MAX)-0.5)*.4;
-		vitesse=CGPointMake(speed*cos(PI*angle), speed*sin(PI*angle));
-	}
-	return  self;
+	return [self initWithSpeed:speed andPosition:CGPointMake(basePositionX, basePositionY)];
 }
 -(id)init
 {
-	if(self=[super init])
-	{
-		vitesse=CGPointMake(standardSpeed, standardSpeed);
-		location=CGPointMake(basePositionX, basePositionY);
-		color=BallColor;
-		BallColor=(BallColor+1)%6;
-		//NSLog(@"%d",color);
-	}
-	return self;
+	return [self initWithSpeed:1.6] ;
 }
 -(void)maj
 {

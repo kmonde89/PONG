@@ -12,20 +12,16 @@
 
 -(id)initWithPosition:(CGPoint)position
 {
-	if(self=[self init])
+	if(self=[super init])
 	{
 		location=position;
+		vitesse=CGPointMake(0.0, 0.0);
 	}
 	return self;
 }
 -(id)init
 {
-	if(self=[super init])
-	{
-		location=CGPointMake(-65, 0);
-		vitesse=CGPointMake(0.0, 0.0);
-	}
-	return self;
+	return [self initWithPosition:CGPointMake(-65, 0)];
 }
 -(void)animate
 {
