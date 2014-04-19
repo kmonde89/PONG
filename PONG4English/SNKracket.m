@@ -71,7 +71,7 @@
 	{
 		//NSLog(@"ball speed.y %f  raquette speed.y %f",[ball getSpeed].y,vitesse.y);
 		//augmenter la modification de vitesse du a la diff de position au cours de la parti
-		[ball modifSpeed:CGPointMake( 0.0,([ball getPosition].y-location.y)*0.0037+vitesse.y*0.0078)];
+		//[ball modifSpeed:CGPointMake( 0.0,([ball getPosition].y-location.y)*0.0037+vitesse.y*0.0078)];
 		//NSLog(@"ball speed.y %f  raquette speed.y %f",[ball getSpeed].y,vitesse.y);
 		[ball contact];
 		return YES;

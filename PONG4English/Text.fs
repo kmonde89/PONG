@@ -15,6 +15,4 @@ out vec4 fragColor;
 uniform sampler2D myTextTexture;
 void main() {
 	fragColor= vec4(TextColor,1.0)*texture( myTextTexture, Textcoord ).rgba;
-	//fragColor=vec4(1.0,1.0,1.0,1.0);
-	//fragColor=texture( myTextTexture, Textcoord ).rgba;
 }

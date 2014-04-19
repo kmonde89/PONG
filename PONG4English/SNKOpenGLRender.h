@@ -44,7 +44,7 @@ typedef struct _TexturedStruct
 	GLuint normalsID;
 	GLuint textureID;
 	GLuint indicesID;
-} quadricTextured;
+} quadricTextured;//avec normal
 typedef  struct _TextTextureStruct
 {
 	GLuint vertCount;
@@ -52,7 +52,7 @@ typedef  struct _TextTextureStruct
 	GLuint vertsID;
 	GLuint textID;
 	GLuint indicesID;
-}quadricText;
+}quadricText;//sans les normal
 typedef struct _DefaultStruct
 {
 	GLuint vertCount;
