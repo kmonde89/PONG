@@ -82,8 +82,9 @@ BOOL startScreen;
 
 -(BOOL)LoadTexture:(int)i andNamed:(NSString *)string
 {
-	@autoreleasepool {
+	
 	NSImage *img=[NSImage imageNamed:string];
+	//NSImage *img=[[NSImage alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForImageResource:string]];
 		if(img == nil)
 			return NO;
 		else if(img.size.height == 0 || img.size.width == 0)
@@ -104,7 +105,8 @@ BOOL startScreen;
 					 rep.size.height, 0, GL_RGBA,
 					 GL_UNSIGNED_BYTE, rep.bitmapData);
 		
-	}
+	[rep release];
+	//[img release];
 	return YES;
 }
 -(void)loadModels
@@ -174,6 +176,8 @@ BOOL startScreen;
     if (self = [super init])
     {
         [self loadModels];
+		chaineRestrict=malloc(30*sizeof(char));
+
 		startScreen=YES;
 		score=0;
         animationDelta = 1.5/100;
@@ -225,6 +229,7 @@ BOOL startScreen;
 	glDeleteBuffers(3, &pauseM->vertsID);
 	free(pauseM);
 	//glDeleteBuffers(1, &scaleBufferID);
+	free(chaineRestrict);
     glDeleteBuffers(1, &orientationMatID);
 	glUseProgram(0);
 	int i = 0;
@@ -329,8 +334,8 @@ BOOL startScreen;
     glVertexAttribPointer(attribPosition2, 3, GL_FLOAT, GL_FALSE, 0, NULL);
 	glBindBuffer(GL_ARRAY_BUFFER, ball->colorsID);
     glVertexAttribPointer(attribColor2, 3, GL_FLOAT, GL_FALSE, 0, NULL);
-	glBindBuffer(GL_ARRAY_BUFFER, ball->normalsID);
-	glVertexAttribPointer(attribNormal2, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+	//glBindBuffer(GL_ARRAY_BUFFER, ball->normalsID);
+	//glVertexAttribPointer(attribNormal2, 3, GL_FLOAT, GL_FALSE, 0, NULL);
     
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ball->indicesID);
 	if(![self LoadTexture:0 andNamed:@"skull4.png"])
@@ -390,9 +395,11 @@ BOOL startScreen;
 
 - (void)reshapeToWidth:(GLsizei)w height:(GLsizei)h
 {
+	[lock lock];
 	width = w;
 	height = h;
 	glViewport(0, 0, width, height);
+	[lock unlock];
 }
 
 #pragma mark - Rendering
@@ -418,7 +425,7 @@ BOOL startScreen;
 -(void)entryScreen
 {
 	
-	GLKVector4 lightPosition = GLKMatrix4MultiplyVector4(cameraMatrix, lightPos);
+	//GLKVector4 lightPosition = GLKMatrix4MultiplyVector4(cameraMatrix, lightPos);
 	GLKVector4	nouvelPosition=GLKVector4Make(1.0f*(score%10), 0.0f, 0.0f, 1.0f);
 	//nouvelPosition=GLKVector4Make(positionBall.x, positionBall.y, 0.0f, 0.0f);
 	glBindVertexArray(gearVAOId[1]);
@@ -426,7 +433,7 @@ BOOL startScreen;
 	// enable all our attribs
     glEnableVertexAttribArray(attribPosition2);
     glEnableVertexAttribArray(attribColor2);
-	glEnableVertexAttribArray(attribNormal2);
+	//glEnableVertexAttribArray(attribNormal2);
 	//int prev=createABall;
 	for(SNKBall * balle in Balls)
 	{
@@ -445,7 +452,7 @@ BOOL startScreen;
 		nouvelPosition=GLKVector4Make(positionBall.x, positionBall.y, 0.0f, 0.0f);
 		glUniform3fv(moveIT2, 1, (const GLfloat *)&nouvelPosition);
 		glUniformMatrix4fv(cameraTransformLocation2, 1, GL_FALSE, (const GLfloat*) &cameraMatrix);
-		glUniform3fv(lightPosLocation2, 1, (const GLfloat*) &lightPosition);
+		//glUniform3fv(lightPosLocation2, 1, (const GLfloat*) &lightPosition);
 		glUniform3fv(lightColorLocation2, 1, (const GLfloat*) &Possiblecolors[[balle color]]);
 		//glUniform3fv(lightColorLocation2, 1, (const GLfloat*) &lightColor);
 		glDrawElementsInstancedARB(GL_TRIANGLES, ball->indexCount, GL_UNSIGNED_INT, NULL, 3);
@@ -454,11 +461,6 @@ BOOL startScreen;
 	variation++;
 	variation=variation>189?10:variation;
 	float textureColor[3]={0.5*sin(M_PI*variation/200),0.0,0.2*sin(M_PI*variation/200)};
-	char * chaine="pong4english";
-	char * chaine2="by";
-	char * chaine3="kevin mondesir";
-	
-	char * chaine4="press p to play";
 	if (animate) {
 		[Myracket animate];
 	}
@@ -470,13 +472,13 @@ BOOL startScreen;
 	
 	glClear(GL_DEPTH_BUFFER_BIT );
 	
-	[self writeGLText:chaine withPosition:CGPointMake(-110.0f, 60.0f) andSize:0.6f];
+	[self writeGLText:"pong4english" withPosition:CGPointMake(-110.0f, 60.0f) andSize:0.6f];
 	
-	[self writeGLText:chaine2 withPosition:CGPointMake(-20.0f, 40.0f) andSize:0.4f];
+	[self writeGLText:"by" withPosition:CGPointMake(-20.0f, 40.0f) andSize:0.4f];
 	
-	[self writeGLText:chaine3 withPosition:CGPointMake(-130.0f, 10.0f) andSize:0.3f];
+	[self writeGLText:"kevin mondesir" withPosition:CGPointMake(-130.0f, 10.0f) andSize:0.3f];
 	glUniform3fv(TextColor, 1, (const GLfloat*) &textureColor);
-	[self writeGLText:chaine4 withPosition:CGPointMake(-140.0f, -40.0f) andSize:0.3f];
+	[self writeGLText:"press p to play" withPosition:CGPointMake(-140.0f, -40.0f) andSize:0.3f];
 }
 -(void)writeGLText:(char *)chaine withPosition:(CGPoint)position andSize:(CGFloat)size
 {
@@ -502,14 +504,14 @@ BOOL startScreen;
 			glEnableVertexAttribArray(attribPosition3);
 			glEnableVertexAttribArray(TextCoord);
 			glUseProgram(programs[2]);
-			glUniform3fv(numberTest, 1, (const GLfloat *)&nouvelPosition);
+			//glUniform3fv(numberTest, 1, (const GLfloat *)&nouvelPosition);
 			glUniform4fv(moveIT3, 1, (const GLfloat *)&nouvelPosition);
 			glDrawElementsInstancedARB(GL_TRIANGLES, letter->indexCount, GL_UNSIGNED_INT, NULL, 1);
 		}
 		else{
 			nouvelPosition=GLKVector4Make(1.0f*chaine[iter],position.x, position.y, size);
 			glBindVertexArray(gearVAOId[2]);
-			glUniform3fv(numberTest, 1, (const GLfloat *)&nouvelPosition);
+			//glUniform3fv(numberTest, 1, (const GLfloat *)&nouvelPosition);
 			glUniform4fv(moveIT3, 1, (const GLfloat *)&nouvelPosition);
 			glDrawElementsInstancedARB(GL_TRIANGLES, letter->indexCount, GL_UNSIGNED_INT, NULL, 1);
 			
@@ -529,12 +531,12 @@ BOOL startScreen;
 	if (animate) {
 		[Myracket animate];
 	}
-	char * chaineRestrict=malloc(20*sizeof(char));
+	//char * chaineRestrict=malloc(20*sizeof(char));
 	sprintf(chaineRestrict, "%d",10-score%10);
 	[self writeGLText:chaineRestrict withPosition:CGPointMake(0.0f, 0.0f) andSize:1.0f];
 	sprintf(chaineRestrict, "score   %d",score);
 	[self writeGLText:chaineRestrict withPosition:CGPointMake(40.0f, 220.0f) andSize:0.2f];
-	free(chaineRestrict);
+	//free(chaineRestrict);
 	
 	
 	glClear(GL_DEPTH_BUFFER_BIT );
@@ -563,7 +565,7 @@ BOOL startScreen;
 	// enable all our attribs
     glEnableVertexAttribArray(attribPosition2);
     glEnableVertexAttribArray(attribColor2);
-	glEnableVertexAttribArray(attribNormal2);
+	//glEnableVertexAttribArray(attribNormal2);
 	//glEnableVertexAttribArray(attribScale);
 	if(positionBall.x>-78&&positionBall.x+xvitesse<=-78&&yposition-positionBall.y<6&&yposition-positionBall.y>-6)
 	{
@@ -599,7 +601,7 @@ BOOL startScreen;
 		nouvelPosition=GLKVector4Make(positionBall.x, positionBall.y, 0.0f, 0.0f);
 		glUniform3fv(moveIT2, 1, (const GLfloat *)&nouvelPosition);
 		glUniformMatrix4fv(cameraTransformLocation2, 1, GL_FALSE, (const GLfloat*) &cameraMatrix);
-		glUniform3fv(lightPosLocation2, 1, (const GLfloat*) &lightPosition);
+		//glUniform3fv(lightPosLocation2, 1, (const GLfloat*) &lightPosition);
 		glUniform3fv(lightColorLocation2, 1, (const GLfloat*) &Possiblecolors[[balle color]]);
 		//glUniform3fv(lightColorLocation2, 1, (const GLfloat*) &lightColor);
 		glDrawElementsInstancedARB(GL_TRIANGLES, ball->indexCount, GL_UNSIGNED_INT, NULL, 3);
@@ -632,23 +634,23 @@ BOOL startScreen;
 		glEnableVertexAttribArray(attribPosition4);
 		glEnableVertexAttribArray(colorSet);
 		glDrawElementsInstancedARB(GL_TRIANGLES, pauseM->indexCount, GL_UNSIGNED_INT, NULL, 3);
-		char * chaine2="pause";
-		char * chaine3="press space to play";
+		//char * chaine2="pause";
+		//char * chaine3="press space to play";
 		glClear(GL_DEPTH_BUFFER_BIT );
 		variation++;
 		variation=variation>189?10:variation;
-		[self writeGLText:chaine2 withPosition:CGPointMake(-50.0f, 60.0f) andSize:0.6f];
+		[self writeGLText:"pause" withPosition:CGPointMake(-50.0f, 60.0f) andSize:0.6f];
 		float textureColor2[3]={0.5*sin(M_PI*variation/200),0.0,0.2*sin(M_PI*variation/200)};
 		glUniform3fv(TextColor, 1, (const GLfloat*) &textureColor2);
-		[self writeGLText:chaine3 withPosition:CGPointMake(-190.0f, -40.0f) andSize:0.3f];
+		[self writeGLText:"press space to play" withPosition:CGPointMake(-190.0f, -40.0f) andSize:0.3f];
 	}
 	else{
-		char * chaine3="press space to pause";
+		//char * chaine3="press space to pause";
 		glClear(GL_DEPTH_BUFFER_BIT );
 		
 		variation++;
 		variation=variation>189?10:variation;
-		[self writeGLText:chaine3 withPosition:CGPointMake(-190.0f, -640.0f) andSize:0.07f];
+		[self writeGLText:"press space to pause" withPosition:CGPointMake(-190.0f, -640.0f) andSize:0.07f];
 		
 	}
 	float textureColor[3]={0.5,1.0,0.2};
@@ -709,7 +711,6 @@ BOOL startScreen;
 {
 	[lock lock];
 	mooveRacket=YES;
-	yRacketSpeed=0.6;
 	[Myracket beginMoveTop];
 	[lock unlock];
 }
@@ -731,7 +732,6 @@ BOOL startScreen;
 {
 	[lock lock];
 	mooveRacket=YES;
-	yRacketSpeed=-0.6;
 	[Myracket beginMoveBottom];
 	[lock unlock];
 }
@@ -830,11 +830,11 @@ BOOL startScreen;
 	
     attribPosition2 = glGetAttribLocation(programs[1], "attribPosition");
     attribColor2 = glGetAttribLocation(programs[1], "attribColor");
-	attribNormal2 = glGetAttribLocation(programs[1], "attribNormal");
+	//attribNormal2 = glGetAttribLocation(programs[1], "attribNormal");
 	moveIT2=glGetUniformLocation(programs[1], "moveIT");
 	cameraTransformLocation2 = glGetUniformLocation(programs[1], "cameraMatrix");
     projectionMatrixLocation2 = glGetUniformLocation(programs[1], "projectionMatrix");
-	lightPosLocation2 = glGetUniformLocation(programs[1], "lightPos");
+	//lightPosLocation2 = glGetUniformLocation(programs[1], "lightPos");
 	lightColorLocation2 = glGetUniformLocation(programs[1], "lightColor");
 	texture2D = glGetUniformLocation(programs[1], "myTextureSampler");
 	//textureText= glGetUniformLocation(programs[1], "myTextureSamplerText");
@@ -866,7 +866,7 @@ BOOL startScreen;
 	
     attribPosition3 = glGetAttribLocation(programs[2], "attribPosition");
     TextCoord = glGetAttribLocation(programs[2], "TextCoord");
-	numberTest = glGetAttribLocation(programs[2], "test");
+	//numberTest = glGetAttribLocation(programs[2], "test");
 	moveIT3=glGetUniformLocation(programs[2], "moveIT");
 	cameraTransformLocation3 = glGetUniformLocation(programs[2], "cameraMatrix");
     projectionMatrixLocation3 = glGetUniformLocation(programs[2], "projectionMatrix");

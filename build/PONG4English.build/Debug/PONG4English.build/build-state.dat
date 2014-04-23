@@ -412,9 +412,9 @@ t1397210526
 s6000
 
 N/Users/reborn95/PONG/PONG/PONG4English/Ball.fs
-c000000005352CBCB00000000000001EC
-t1397935051
-s492
+c0000000053531E3800000000000001F2
+t1397956152
+s498
 
 N/Users/reborn95/PONG/PONG/PONG4English/Ball.h
 c00000000534445E3000000000000035F
@@ -422,9 +422,9 @@ t1396983267
 s863
 
 N/Users/reborn95/PONG/PONG/PONG4English/Ball.vs
-c0000000053513D0E0000000000000293
-t1397832974
-s659
+c0000000053531EFF00000000000002D8
+t1397956351
+s728
 
 N/Users/reborn95/PONG/PONG/PONG4English/Base.lproj/MainMenu.xib
 c000000005341740C000000000000C599
@@ -452,9 +452,9 @@ t1397688573
 s596
 
 N/Users/reborn95/PONG/PONG/PONG4English/PONGView.m
-c00000000534F0BA50000000000001CD1
-t1397689253
-s7377
+c00000000535313110000000000001B41
+t1397953297
+s6977
 
 N/Users/reborn95/PONG/PONG/PONG4English/Pause.h
 c0000000053514CA10000000000000373
@@ -487,14 +487,14 @@ t1397949429
 s1738
 
 N/Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.h
-c000000005352CB470000000000000D64
-t1397934919
-s3428
+c00000000535310F70000000000000D56
+t1397952759
+s3414
 
 N/Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m
-c000000005351774200000000000076B6
-t1397847874
-s30390
+c000000005357E4530000000000007744
+t1398269011
+s30532
 
 N/Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.h
 c0000000053452F08000000000000015F
@@ -647,7 +647,7 @@ t1396610622
 s715
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app
-t1397949403
+t1397981844
 s102
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Info.plist
@@ -655,8 +655,8 @@ t1397936018
 s1562
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English
-t1397949435
-s99332
+t1398269143
+s94956
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/PkgInfo
 t1397936018
@@ -675,12 +675,12 @@ t1397935991
 s4959887
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Ball.fs
-t1397935991
-s492
+t1397956178
+s498
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Ball.vs
-t1397935991
-s659
+t1397956351
+s728
 
 N/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Base.lproj/MainMenu.nib
 t1397936018
@@ -772,8 +772,8 @@ t1397935970
 s775
 
 N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o
-t1397935986
-s101060
+t1397953394
+s100996
 
 N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKAppDelegate.o
 t1397935986
@@ -784,8 +784,8 @@ t1397949434
 s17256
 
 N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o
-t1397935986
-s101048
+t1398269140
+s99600
 
 N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKTextPong.o
 t1397935985
@@ -799,6 +799,34 @@ N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Obj
 t1397935986
 s3344
 
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/PONGView.plist
+t2
+s0
+
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKAppDelegate.plist
+t2
+s0
+
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKBall.plist
+t2
+s0
+
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKOpenGLRender.plist
+t2
+s0
+
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKTextPong.plist
+t2
+s0
+
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKracket.plist
+t2
+s0
+
+N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/main.plist
+t2
+s0
+
 N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/assetcatalog_dependencies.txt
 t1397936016
 s298
@@ -807,9 +835,80 @@ N/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/ass
 t1397936016
 s243
 
+N/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch.pch
+t1397952359
+s116848
+
 N/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-ekivbrowgmejnwcarknoneuolfnp/PONG4English-Prefix.pch.pch
 t1397935983
 s123872
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/PONGView.m
+s419645159.802154
+e419645161.606052
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/PONGView.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Analyze /Users/reborn95/PONG/PONG/PONG4English/PONGView.m31"Analyze PONG4English/PONGView.m5c75cde74603b941^70409be94603b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/reborn95/PONG/PONG/PONG4English/PONGView.m0000000000000000^3354"Analyze PONG4English/PONGView.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/PONGView.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/PONGView.plist36"BC309DB4-5864-474E-A789-69119A453828-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/SNKAppDelegate.m
+s419645168.918547
+e419645169.251670
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/SNKAppDelegate.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Analyze /Users/reborn95/PONG/PONG/PONG4English/SNKAppDelegate.m37"Analyze PONG4English/SNKAppDelegate.m7d41ebf04603b941^e8ddb4f14603b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/reborn95/PONG/PONG/PONG4English/SNKAppDelegate.m0000000000000000^3372"Analyze PONG4English/SNKAppDelegate.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/SNKAppDelegate.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKAppDelegate.plist36"9830D4BE-705A-4E73-824E-146201AFF8AD-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/SNKBall.m
+s419645168.422684
+e419645169.071877
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/SNKBall.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Analyze /Users/reborn95/PONG/PONG/PONG4English/SNKBall.m30"Analyze PONG4English/SNKBall.mf7566cf04603b941^2d0920f14603b941^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/reborn95/PONG/PONG/PONG4English/SNKBall.m0000000000000000^3351"Analyze PONG4English/SNKBall.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/SNKBall.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKBall.plist36"447CFFC3-4ED0-43A5-9AC8-A400EA1C46A4-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m
+s419645161.777429
+e419645168.422226
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m
+o/Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m:92:27: warning: Potential leak of an object stored into 'rep'
+o                NSBitmapImageRep *rep = [[NSBitmapImageRep alloc] initWithData: [img TIFFRepresentation]];
+o                                        ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Analyze /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m38"Analyze PONG4English/SNKOpenGLRender.m5a2ac7e94603b941^2bf61ff14603b941^-289"/Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m:92:27: warning: Potential leak of an object stored into 'rep'                NSBitmapImageRep *rep = [[NSBitmapImageRep alloc] initWithData: [img TIFFRepresentation]];                                        ^1 warning generated.1(35%IDEActivityLogAnalyzerResultMessage2@45"Potential leak of an object stored into 'rep'-419645168#18446744073709551615#0#12(44%IDEActivityLogAnalyzerControlFlowStepMessage3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(41%IDEActivityLogAnalyzerControlFlowStepEdge5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^85#1#85#7#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^86#2#86#3#18446744073709551615#0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^86#2#86#3#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^86#5#86#7#18446744073709551615#0#38%IDEActivityLogAnalyzerEventStepMessage6@34"Assuming 'img' is not equal to nil-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^86#5#86#5#18446744073709551615#0#-1(4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^86#5#86#15#18446744073709551615#0#-18446744073709551615#34"Assuming 'img' is not equal to nil0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^86#5#86#7#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^88#7#88#8#18446744073709551615#0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^88#7#88#8#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^88#10#88#12#18446744073709551615#0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^88#10#88#12#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^88#34#88#36#18446744073709551615#0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^88#34#88#36#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#2#91#17#18446744073709551615#0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#2#91#17#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#26#91#26#18446744073709551615#0#6@59"Method returns an Objective-C object with a +1 retain count-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#26#91#26#18446744073709551615#0#-1(4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#26#91#91#18446744073709551615#0#-18446744073709551615#59"Method returns an Objective-C object with a +1 retain count0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#26#91#26#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#2#91#17#18446744073709551615#0#3@0"-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---18446744073709551615#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^91#2#91#17#18446744073709551615#0#4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^102#2#102#13#18446744073709551615#0#6@129"Object leaked: object allocated and stored into 'rep' is not referenced later in this execution path and has a retain count of +1-419645168#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^102#2#102#2#18446744073709551615#0#-1(4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^102#2#104#39#18446744073709551615#0#-18446744073709551615#129"Object leaked: object allocated and stored into 'rep' is not referenced later in this execution path and has a retain count of +10#1#32"com.apple.dt.IDE.analyzer.result4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^102#2#102#2#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^102#2#104#39#18446744073709551615#0#-4"Leak18446744073709551615#0#0#1#-19%DVTDocumentLocation7@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^3375"Analyze PONG4English/SNKOpenGLRender.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKOpenGLRender.plist36"C52ACA0F-AD45-4E86-B0D7-F36CB6E29F82-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.m
+s419645161.606374
+e419645161.776264
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Analyze /Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.m34"Analyze PONG4English/SNKTextPong.m25789be94603b941^5bd1dae94603b941^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.m0000000000000000^3363"Analyze PONG4English/SNKTextPong.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKTextPong.plist36"92C46822-35CA-4783-BB8D-919E1C0DB882-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/SNKracket.m
+s419645159.801322
+e419645161.301663
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/SNKracket.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Analyze /Users/reborn95/PONG/PONG/PONG4English/SNKracket.m32"Analyze PONG4English/SNKracket.m7f4ecde74603b941^344c4de94603b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/reborn95/PONG/PONG/PONG4English/SNKracket.m0000000000000000^3357"Analyze PONG4English/SNKracket.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/SNKracket.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/SNKracket.plist36"F9D72DBA-78DD-4A6C-8DB6-C431F4AFC5E0-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
+
+CAnalyze /Users/reborn95/PONG/PONG/PONG4English/main.m
+s419645168.422720
+e419645168.918252
+r1
+xAnalyze
+x/Users/reborn95/PONG/PONG/PONG4English/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Analyze /Users/reborn95/PONG/PONG/PONG4English/main.m27"Analyze PONG4English/main.mc1536cf04603b941^0c0120f14603b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/reborn95/PONG/PONG/PONG4English/main.m0000000000000000^3342"Analyze PONG4English/main.m    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch --analyze /Users/reborn95/PONG/PONG/PONG4English/main.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/StaticAnalyzer/PONG4English/PONG4English/normal/x86_64/main.plist36"46CE59C3-18C9-4B02-AAB8-2CA30CCBCEEC-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
 
 CBuild AST from /Users/reborn95/PONG/PONG/PONG4English/PONGView.m
 r0
@@ -834,7 +933,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies12fa9d773b03b941^2828a9773b03b941^---0#1#1#--18"Check dependencies36"D3C59536-300E-458A-A780-2EE31D079B0C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies575df74c1c08b941^40a51a4d1c08b941^---0#1#1#--18"Check dependencies36"BA50269D-FCCD-4399-A451-72DDF457BDCA-
 
 CCompileAssetCatalog /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources /Users/reborn95/PONG/PONG/PONG4English/Images.xcassets
 s419628791.797883
@@ -852,8 +951,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile
 b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
 
 CCompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o /Users/reborn95/PONG/PONG/PONG4English/PONGView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419628783.177633
-e419628786.396612
+s419646188.803143
+e419646194.502596
 r1
 xCompileC
 xbuild/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o
@@ -867,8 +966,8 @@ d/Users/reborn95/PONG/PONG/PONG4English/PONGView.h
 d/Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.h
 d/Users/reborn95/PONG/PONG/PONG4English/SNKracket.h
 d/Users/reborn95/PONG/PONG/PONG4English/SNKBall.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/reborn95/PONG/PONG/PONG4English/PONGView.m185"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o PONG4English/PONGView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf7932def0603b941^6bbb65f20603b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/reborn95/PONG/PONG/PONG4English/PONGView.m0000000000000000^3025"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o PONG4English/PONGView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-ekivbrowgmejnwcarknoneuolfnp/PONG4English-Prefix.pch -MMD -MT dependencies -MF /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.d --serialize-diagnostics /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.dia -c /Users/reborn95/PONG/PONG/PONG4English/PONGView.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o36"BC5DEADA-A63E-4620-9B56-2BF2AEB8FA48-
-b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/reborn95/PONG/PONG/PONG4English/PONGView.m185"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o PONG4English/PONGView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5c00ceec4a03b941^65c580f24a03b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/reborn95/PONG/PONG/PONG4English/PONGView.m0000000000000000^3025"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o PONG4English/PONGView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-ekivbrowgmejnwcarknoneuolfnp/PONG4English-Prefix.pch -MMD -MT dependencies -MF /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.d --serialize-diagnostics /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.dia -c /Users/reborn95/PONG/PONG/PONG4English/PONGView.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONGView.o36"85C800B3-B8E2-4152-B653-44BE4C38B434-
+b4BBF3A91-ED66-4CA5-AC01-F92BAFD001F8
 
 CCompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKAppDelegate.o /Users/reborn95/PONG/PONG/PONG4English/SNKAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s419628786.702275
@@ -903,8 +1002,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile
 b33D60FA6-4FF6-41C9-B9B9-A78BC1A6C44F
 
 CCompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419628785.844396
-e419628786.748262
+s419961933.301315
+e419961940.522379
 r1
 xCompileC
 xbuild/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o
@@ -922,8 +1021,8 @@ d/Users/reborn95/PONG/PONG/PONG4English/Racket.h
 d/Users/reborn95/PONG/PONG/PONG4English/Text.h
 d/Users/reborn95/PONG/PONG/PONG4English/Uno.h
 d/Users/reborn95/PONG/PONG/PONG4English/Pause.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m199"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o PONG4English/SNKOpenGLRender.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler274cd8f10603b941^4c8ebff20603b941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^3067"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o PONG4English/SNKOpenGLRender.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-ekivbrowgmejnwcarknoneuolfnp/PONG4English-Prefix.pch -MMD -MT dependencies -MF /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.d --serialize-diagnostics /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.dia -c /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o36"7518EA99-0EE5-4BAD-9926-8E17AE586566-
-b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m199"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o PONG4English/SNKOpenGLRender.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb5704d4d1c08b941^d8b985541c08b941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m0000000000000000^3067"CompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o PONG4English/SNKOpenGLRender.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-ekivbrowgmejnwcarknoneuolfnp/PONG4English-Prefix.pch -MMD -MT dependencies -MF /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.d --serialize-diagnostics /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.dia -c /Users/reborn95/PONG/PONG/PONG4English/SNKOpenGLRender.m -o /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKOpenGLRender.o36"3A974D30-CB85-42EC-8CC6-DA4B4A1541EC-
+b848127CB-B167-4621-B8DC-CFDC4D3BAAC2
 
 CCompileC build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/SNKTextPong.o /Users/reborn95/PONG/PONG/PONG4English/SNKTextPong.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s419628785.696856
@@ -1005,24 +1104,24 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy PO
 b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
 
 CCpResource PONG4English/Ball.fs build/Debug/PONG4English.app/Contents/Resources/Ball.fs
-s419628791.701340
-e419628791.738345
+s419648978.815928
+e419648978.822173
 r1
 xCpResource
 xPONG4English/Ball.fs
 xbuild/Debug/PONG4English.app/Contents/Resources/Ball.fs
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug/PONG4English.app/Contents/Resources/Ball.fs87"CpResource PONG4English/Ball.fs build/Debug/PONG4English.app/Contents/Resources/Ball.fsf699b3f70603b941^7b11bdf70603b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Ball.fs003420dfdeffdf42^354"CpResource PONG4English/Ball.fs build/Debug/PONG4English.app/Contents/Resources/Ball.fs    cd /Users/reborn95/PONG/PONG    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reborn95/PONG/PONG/PONG4English/Ball.fs /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources36"0AD77202-D28F-4C94-9CED-99B1A9452530-
-b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug/PONG4English.app/Contents/Resources/Ball.fs87"CpResource PONG4English/Ball.fs build/Debug/PONG4English.app/Contents/Resources/Ball.fs37fed0d25503b941^01a1d5d25503b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Ball.fs0000000000000000^354"CpResource PONG4English/Ball.fs build/Debug/PONG4English.app/Contents/Resources/Ball.fs    cd /Users/reborn95/PONG/PONG    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reborn95/PONG/PONG/PONG4English/Ball.fs /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources36"AD27E13F-1BDD-44E4-825A-72B30A048B92-
+b1D53DDD1-1B54-407B-9EE2-4FBE729C6F3B
 
 CCpResource PONG4English/Ball.vs build/Debug/PONG4English.app/Contents/Resources/Ball.vs
-s419628791.738704
-e419628791.796436
+s419649151.839428
+e419649151.841411
 r1
 xCpResource
 xPONG4English/Ball.vs
 xbuild/Debug/PONG4English.app/Contents/Resources/Ball.vs
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug/PONG4English.app/Contents/Resources/Ball.vs87"CpResource PONG4English/Ball.vs build/Debug/PONG4English.app/Contents/Resources/Ball.vs0e2ebdf70603b941^0af6cbf70603b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Ball.vs003420dfdeffdf42^354"CpResource PONG4English/Ball.vs build/Debug/PONG4English.app/Contents/Resources/Ball.vs    cd /Users/reborn95/PONG/PONG    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reborn95/PONG/PONG/PONG4English/Ball.vs /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources36"475B29E3-7E2B-446B-BD57-330015CAA22D-
-b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug/PONG4English.app/Contents/Resources/Ball.vs87"CpResource PONG4English/Ball.vs build/Debug/PONG4English.app/Contents/Resources/Ball.vs9221d77f5603b941^295edd7f5603b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources/Ball.vs0000000000000000^354"CpResource PONG4English/Ball.vs build/Debug/PONG4English.app/Contents/Resources/Ball.vs    cd /Users/reborn95/PONG/PONG    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reborn95/PONG/PONG/PONG4English/Ball.vs /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Resources36"7E3715F3-CE3B-47D1-85D0-061B12538360-
+b31DFA068-EFC0-4EC4-8B7B-B24A4163B8FD
 
 CCpResource PONG4English/Text.fs build/Debug/PONG4English.app/Contents/Resources/Text.fs
 s419628791.550182
@@ -1235,8 +1334,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bu
 b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
 
 CLd /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English normal x86_64
-s419642234.973218
-e419642235.994515
+s419961941.545386
+e419961943.826272
 r1
 xLd
 x/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English
@@ -1320,8 +1419,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Link /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English73"Ld build/Debug/PONG4English.app/Contents/MacOS/PONG4English normal x86_64de38f97a3b03b941^d3a2fe7b3b03b941^---0#0#1#--953"Ld build/Debug/PONG4English.app/Contents/MacOS/PONG4English normal x86_64    cd /Users/reborn95/PONG/PONG    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/reborn95/PONG/PONG/build/Debug -F/Users/reborn95/PONG/PONG/build/Debug -filelist /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONG4English.LinkFileList -mmacosx-version-min=10.9 -fobjc-link-runtime -framework OpenGL -framework GLKit -framework QuartzCore -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONG4English_dependency_info.dat -o /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English36"88352B87-3BAD-4096-99C7-7D03013FBC46-
-b33D60FA6-4FF6-41C9-B9B9-A78BC1A6C44F
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Link /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English73"Ld build/Debug/PONG4English.app/Contents/MacOS/PONG4English normal x86_641bb88b551c08b941^d5b0d3571c08b941^---0#0#1#--953"Ld build/Debug/PONG4English.app/Contents/MacOS/PONG4English normal x86_64    cd /Users/reborn95/PONG/PONG    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/reborn95/PONG/PONG/build/Debug -F/Users/reborn95/PONG/PONG/build/Debug -filelist /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONG4English.LinkFileList -mmacosx-version-min=10.9 -fobjc-link-runtime -framework OpenGL -framework GLKit -framework QuartzCore -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/Objects-normal/x86_64/PONG4English_dependency_info.dat -o /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/MacOS/PONG4English36"A3786ADC-E22C-44BF-901D-4A83E924562D-
+b848127CB-B167-4621-B8DC-CFDC4D3BAAC2
 
 CProcessInfoPlistFile /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app/Contents/Info.plist /Users/reborn95/PONG/PONG/PONG4English/PONG4English-Info.plist
 s419628818.313215
@@ -1335,6 +1434,20 @@ b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
 
 CProcessPCH /Users/reborn95/Library/Developer/Xcode/DerivedData/PONG4English-hhlvjlapbgxoxnfulvuiiqrodpsc/Index/PrecompiledHeaders/PONG4English-Prefix-ddoxaefegauwthcrmroohhwzcbyq_ast/PONG4English-Prefix.pch.pch PONG4English/PONG4English-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch.pch PONG4English/PONG4English-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s419645148.058834
+e419645159.452384
+r1
+xProcessPCH
+x/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch.pch
+xPONG4English/PONG4English-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile PONG4English/PONG4English-Prefix.pch312"ProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch.pch PONG4English/PONG4English-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer6a2e0fdc4603b941^31d075e74603b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/reborn95/PONG/PONG/PONG4English/PONG4English-Prefix.pch0000000000000000^3497"ProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch.pch PONG4English/PONG4English-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/reborn95/PONG/PONG    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/reborn95/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-generated-files.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-own-target-headers.hmap -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-all-target-headers.hmap -iquote /Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/PONG4English-project-headers.hmap -I/Users/reborn95/PONG/PONG/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources/x86_64 -I/Users/reborn95/PONG/PONG/build/PONG4English.build/Debug/PONG4English.build/DerivedSources -F/Users/reborn95/PONG/PONG/build/Debug -c /Users/reborn95/PONG/PONG/PONG4English/PONG4English-Prefix.pch -o /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-cignboathhvokkbynbutcktlrjpj/PONG4English-Prefix.pch.pch36"C7F5B8C4-7839-46AF-9917-FBB04CBD4AB9-
+b8AC6C4EE-B308-4803-86F8-0C07EF9EB60C
 
 CProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/PONG4English-Prefix-ekivbrowgmejnwcarknoneuolfnp/PONG4English-Prefix.pch.pch PONG4English/PONG4English-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s419628770.610674
@@ -1352,11 +1465,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precomp
 b5FA5025E-FFDC-4F65-A309-B8194DC39FB9
 
 CTouch /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app
-s419642236.001007
-e419642236.071880
+s419961943.834621
+e419961943.931502
 r1
 xTouch
 x/Users/reborn95/PONG/PONG/build/Debug/PONG4English.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Touch /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app34"Touch build/Debug/PONG4English.appd34f007c3b03b941^b98d127c3b03b941^---0#0#1#--145"Touch build/Debug/PONG4English.app    cd /Users/reborn95/PONG/PONG    /usr/bin/touch -c /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app36"AB71AACA-6FA2-448C-BFD5-F16D1F25A4B1-
-b33D60FA6-4FF6-41C9-B9B9-A78BC1A6C44F
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Touch /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app34"Touch build/Debug/PONG4English.app17b7d5571c08b941^c287ee571c08b941^---0#0#1#--145"Touch build/Debug/PONG4English.app    cd /Users/reborn95/PONG/PONG    /usr/bin/touch -c /Users/reborn95/PONG/PONG/build/Debug/PONG4English.app36"976A10C5-7D8F-4198-9B87-A87887D9E8C6-
+b848127CB-B167-4621-B8DC-CFDC4D3BAAC2
 

@@ -97,14 +97,7 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,
 {
     [super prepareOpenGL];
 	lock=[[NSRecursiveLock alloc]init];
-	//
-	//NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"8bp129-02-yerzmyey-im35" ofType:@"mp3"];
 	[self startScreen];
-	/*
-	NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"8bp129-01-yerzmyey-dark_galactica" ofType:@"mp3"];
-	sound = [[NSSound alloc] initWithContentsOfFile:resourcePath byReference:YES];
-	[sound play];
-	[sound setLoops:YES];*/
 	GLint swapInt = 1;
 	
     [[self openGLContext] setValues:&swapInt forParameter:NSOpenGLCPSwapInterval];
@@ -191,12 +184,9 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,
 }
 - (void)keyDown:(NSEvent *)theEvent
 {
-	//NSLog(@"%d",[theEvent keyCode]);
 	switch ([theEvent keyCode]) {
 		case kSpacebarKeyCode:
 			[cbCtx->renderer toggleAnimation];
-			
-			
 			break;
 		case 125:
 			[cbCtx->renderer down];

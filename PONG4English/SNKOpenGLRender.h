@@ -68,7 +68,7 @@ const uint32_t VBOCount=1;
 #endif
 @interface SNKOpenGLRender : NSObject
 {
-	
+	char * chaineRestrict;
 	GLsizei width, height;
 
 	NSRecursiveLock * lock;
@@ -102,7 +102,6 @@ const uint32_t VBOCount=1;
 	defaultStruct * pauseM;
 	GLKMatrix4 cameraMatrix;
 	GLKVector4 lightPos, lightColor;
-	int numGears;
     int score;
 	float animationDelta;
 	uint32_t kAnimationLoopValue, animationStep;
@@ -112,7 +111,6 @@ const uint32_t VBOCount=1;
 	CGPoint positionBall;
 	float xvitesse,yvitesse;
 	BOOL mooveRacket;
-	float yRacketSpeed;
 	NSMutableArray * Balls;
 	NSMutableArray * removeBalls;
 	SNKracket * Myracket;
