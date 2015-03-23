@@ -17,8 +17,9 @@ typedef struct _CallbackContext
 	SNKOpenGLRender* renderer;
 } CallbackContext;
 
-@interface PONGView : NSOpenGLView<PongRendererDelegate>{
+@interface PONGView : NSOpenGLView<PongRendererDelegate,NSURLConnectionDelegate>{
 	CallbackContext* cbCtx;
+	NSMutableData * receivedData;
 	NSOpenGLPixelFormat* pf;
 	CVDisplayLinkRef displayLink;
 	NSPoint lastPoint;

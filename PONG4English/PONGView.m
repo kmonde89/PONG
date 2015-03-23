@@ -7,6 +7,8 @@
 //
 
 #import "PONGView.h"
+#import "SNKScore.h"
+#define credential @"012GREGHTD06H54GQEGVQG5H45O54QZG"
 #define kSpacebarKeyCode 49
 int test=0;
 
@@ -84,6 +86,7 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,
 		NSRect pixels = [self convertRectToBacking:bounds];
 		[cbCtx->renderer reshapeToWidth:pixels.size.width height:pixels.size.height];
     }
+	[self getScore];
     return self;
 }
 -(void)setFrame:(NSRect)frameRect
@@ -253,5 +256,88 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,
 	sound = [[NSSound alloc] initWithContentsOfFile:resourcePath byReference:YES];
 	[sound play];
 	[sound setLoops:YES];
+}
+-(void)sendScore:(NSString *)pseudo andScore:(int)score
+{
+	NSString *post;
+	NSData *postData;
+	NSURLConnection *conn;
+	NSMutableURLRequest *request;
+	post = [NSString stringWithFormat:@"hello"];
+	postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+	NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
+	request = [[[NSMutableURLRequest alloc] init] autorelease];
+	[request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.kevinmondesir.fr/saveScore.php"]]];
+	[request setHTTPMethod:@"POST"];
+	[request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+	[request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+	[request setHTTPBody:postData];
+	[postData release];
+	conn = [[NSURLConnection alloc]initWithRequest:request delegate:self];
+	if(conn)
+	{
+		NSLog(@"Connection Successful");
+		receivedData = [[NSMutableData data] retain];
+	}
+	else
+	{
+		NSLog(@"Connection could not be made");
+	}
+}
+-(void)getScore
+{
+	NSString *post;
+	NSData *postData;
+	NSURLConnection *conn;
+	NSMutableURLRequest *request;
+	post = [NSString stringWithFormat:@"hello"];
+	postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+	NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
+	request = [[[NSMutableURLRequest alloc] init] autorelease];
+	[request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.kevinmondesir.fr/saveScore.php"]]];
+	[request setHTTPMethod:@"POST"];
+	[request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+	[request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+	[request setHTTPBody:postData];
+	[postData release];
+	conn = [[NSURLConnection alloc]initWithRequest:request delegate:self];
+	if(conn)
+	{
+		NSLog(@"Connection Successful");
+		receivedData = [[NSMutableData data] retain];
+	}
+	else
+	{
+		NSLog(@"Connection could not be made");
+	}
+}
+- (void)connection:(NSURLConnection *)connection
+  didFailWithError:(NSError *)error
+{
+    // release the connection, and the data object
+    //[connection release];
+    // receivedData is declared as a method instance elsewhere
+    [receivedData release];
+	
+    // inform the user
+    NSLog(@"Connection failed! Error - %@ %@",
+          [error localizedDescription],
+          [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
+}
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+    // do something with the data
+    // receivedData is declared as a method instance elsewhere
+    //NSLog(@"Succeeded! Received %lu bytes of data",(unsigned long)[receivedData length]);
+	NSLog(@"%@",[NSString stringWithUTF8String:[receivedData bytes]] );
+    // release the connection, and the data object
+    //[connection release];
+    [receivedData release];
+}
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    // Append the new data to receivedData.
+    // receivedData is an instance variable declared elsewhere.
+    [receivedData appendData:data];
 }
 @end

@@ -18,6 +18,7 @@
 		CE4A3C7018E8C99000B85DF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4A3C4F18E8C98F00B85DF6 /* Cocoa.framework */; };
 		CE4A3C7818E8C99000B85DF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4A3C7618E8C99000B85DF6 /* InfoPlist.strings */; };
 		CE4A3C7A18E8C99000B85DF6 /* PONG4EnglishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4A3C7918E8C99000B85DF6 /* PONG4EnglishTests.m */; };
+		CE4D1B17190D82D0003B1492 /* SNKScore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D1B16190D82D0003B1492 /* SNKScore.m */; };
 		CE4FBBA21901732300AE4980 /* simplevertex.vs in Resources */ = {isa = PBXBuildFile; fileRef = CE4FBBA11901732300AE4980 /* simplevertex.vs */; };
 		CE4FBBA41901733000AE4980 /* simplefragment.fs in Resources */ = {isa = PBXBuildFile; fileRef = CE4FBBA31901733000AE4980 /* simplefragment.fs */; };
 		CE514F8618EA2F090051E616 /* PONGView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE514F8518EA2F090051E616 /* PONGView.m */; };
@@ -35,6 +36,7 @@
 		CEB28D8418EC38BE001036DA /* fragmentShaderFlat.fs in Resources */ = {isa = PBXBuildFile; fileRef = CEB28D8318EC38BE001036DA /* fragmentShaderFlat.fs */; };
 		CECA9B2318EC6D480099275C /* SNKBall.m in Sources */ = {isa = PBXBuildFile; fileRef = CECA9B2218EC6D480099275C /* SNKBall.m */; };
 		CECA9B2618ED79710099275C /* SNKracket.m in Sources */ = {isa = PBXBuildFile; fileRef = CECA9B2518ED79710099275C /* SNKracket.m */; };
+		CEDBB9681AC02B23003646A9 /* NString+OpenGLPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDBB9671AC02B23003646A9 /* NString+OpenGLPrint.m */; };
 		CEE1AD1418F1A8FC00E73518 /* visitor.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AD1118F1A8FC00E73518 /* visitor.png */; };
 		CEE1AD1518F1A8FC00E73518 /* visitorLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AD1218F1A8FC00E73518 /* visitorLarge.png */; };
 		CEE1AD1618F1A8FC00E73518 /* visitorMedium.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE1AD1318F1A8FC00E73518 /* visitorMedium.png */; };
@@ -81,6 +83,8 @@
 		CE4A3C7518E8C99000B85DF6 /* PONG4EnglishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PONG4EnglishTests-Info.plist"; sourceTree = "<group>"; };
 		CE4A3C7718E8C99000B85DF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE4A3C7918E8C99000B85DF6 /* PONG4EnglishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PONG4EnglishTests.m; sourceTree = "<group>"; };
+		CE4D1B15190D82D0003B1492 /* SNKScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNKScore.h; path = score/SNKScore.h; sourceTree = "<group>"; };
+		CE4D1B16190D82D0003B1492 /* SNKScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNKScore.m; path = score/SNKScore.m; sourceTree = "<group>"; };
 		CE4FBBA11901732300AE4980 /* simplevertex.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simplevertex.vs; sourceTree = "<group>"; };
 		CE4FBBA31901733000AE4980 /* simplefragment.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simplefragment.fs; sourceTree = "<group>"; };
 		CE514F8418EA2F090051E616 /* PONGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PONGView.h; sourceTree = "<group>"; };
@@ -107,6 +111,9 @@
 		CECA9B2218EC6D480099275C /* SNKBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKBall.m; sourceTree = "<group>"; };
 		CECA9B2418ED79710099275C /* SNKracket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKracket.h; sourceTree = "<group>"; };
 		CECA9B2518ED79710099275C /* SNKracket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKracket.m; sourceTree = "<group>"; };
+		CEDBB9661AC02B23003646A9 /* NString+OpenGLPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NString+OpenGLPrint.h"; sourceTree = "<group>"; };
+		CEDBB9671AC02B23003646A9 /* NString+OpenGLPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NString+OpenGLPrint.m"; sourceTree = "<group>"; };
+		CEDBB9691AC02B5D003646A9 /* pongDataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pongDataType.h; sourceTree = "<group>"; };
 		CEE1AD0A18F0D68400E73518 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		CEE1AD1118F1A8FC00E73518 /* visitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitor.png; sourceTree = "<group>"; };
 		CEE1AD1218F1A8FC00E73518 /* visitorLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitorLarge.png; sourceTree = "<group>"; };
@@ -196,6 +203,8 @@
 		CE4A3C5518E8C98F00B85DF6 /* PONG4English */ = {
 			isa = PBXGroup;
 			children = (
+				CEDBB9651AC02AFC003646A9 /* categorie */,
+				CE4D1B14190D82AA003B1492 /* score */,
 				CEE1AD1018F1A8FC00E73518 /* font */,
 				CEF7130318F083540022E8E6 /* ressources */,
 				CECA9B2018EC6D300099275C /* object */,
@@ -244,9 +253,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE4D1B14190D82AA003B1492 /* score */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D1B15190D82D0003B1492 /* SNKScore.h */,
+				CE4D1B16190D82D0003B1492 /* SNKScore.m */,
+			);
+			name = score;
+			sourceTree = "<group>";
+		};
 		CEB28D7D18EC343A001036DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CEDBB9691AC02B5D003646A9 /* pongDataType.h */,
 				CEB28D7E18EC3464001036DA /* Ball.h */,
 				CEB28D7F18EC3475001036DA /* Racket.h */,
 				CEF7131B18F090970022E8E6 /* Pause.h */,
@@ -283,6 +302,15 @@
 				CE7113A818F56482003224D3 /* SNKTextPong.m */,
 			);
 			name = object;
+			sourceTree = "<group>";
+		};
+		CEDBB9651AC02AFC003646A9 /* categorie */ = {
+			isa = PBXGroup;
+			children = (
+				CEDBB9661AC02B23003646A9 /* NString+OpenGLPrint.h */,
+				CEDBB9671AC02B23003646A9 /* NString+OpenGLPrint.m */,
+			);
+			name = categorie;
 			sourceTree = "<group>";
 		};
 		CEE1AD1018F1A8FC00E73518 /* font */ = {
@@ -458,7 +486,9 @@
 				CE7113A918F56482003224D3 /* SNKTextPong.m in Sources */,
 				CE514F8F18EA2F9E0051E616 /* SNKOpenGLRender.m in Sources */,
 				CECA9B2318EC6D480099275C /* SNKBall.m in Sources */,
+				CE4D1B17190D82D0003B1492 /* SNKScore.m in Sources */,
 				CE4A3C5C18E8C99000B85DF6 /* main.m in Sources */,
+				CEDBB9681AC02B23003646A9 /* NString+OpenGLPrint.m in Sources */,
 				CE4A3C6318E8C99000B85DF6 /* SNKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
